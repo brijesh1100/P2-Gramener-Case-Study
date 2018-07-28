@@ -1,0 +1,330 @@
+name,obs,nmiss,unique,mean,std_dev,median,mode,min,max,p1,p5,p25,p75,p95,p99,skewness,
+loan_amnt,39717,0,885,11219.44381,7456.670694,10000,-,500,35000,1200,2400,5500,15000,25000,35000,1.059277282,'loan_amnt'
+funded_amnt,39717,0,1041,10947.7132,7187.23867,9600,-,500,35000,1200,2400,5400,15000,25000,35000,1.081669385,'funded_amnt'
+funded_amnt_inv,39717,0,8205,10397.44887,7128.450439,8975,-,0,35000,675.0006428,1873.658,5000,14400,24736.57226,34750,1.106171159,'funded_amnt_inv'
+int_rate,39717,0,371,12.02117657,3.724825435,11.86,-,5.42,24.59,5.42,6.17,9.25,14.59,18.54,20.99,0.293717583,'int_rate'
+installment,39717,0,15383,324.5619221,208.8748735,280.22,-,15.69,1305.19,37.61,71.246,167.02,430.78,762.996,931.5416,1.128376478,'installment'
+annual_inc,39717,0,5318,68968.92638,63793.76579,59000,-,4000,6000000,14400,24000,40404,82300,142000,234999.36,30.94801572,'annual_inc'
+dti,39717,0,2868,13.31512954,6.678593595,13.4,-,0,29.99,0.35,2.13,8.17,18.6,23.84,26.68,-0.028042272,'dti'
+revol_bal,39717,0,21711,13382.52809,15885.01664,8850,-,0,149588,0,321.8,3703,17058,41656.4,83101.88,3.190763171,'revol_bal'
+revol_util,39667,50,1089,48.83215242,28.33263363,49.3,-,0,99.9,0,2.7,25.4,72.4,93.5,98.5,,'revol_util'
+out_prncp,39717,0,1137,51.2278873,375.1728389,0,-,0,6311.47,0,0,0,0,0,2095.5316,9.226381535,'out_prncp'
+out_prncp_inv,39717,0,1138,50.98976811,373.8244569,0,-,0,6307.37,0,0,0,0,0,2092.182,9.24341638,'out_prncp_inv'
+total_pymnt,39717,0,37850,12153.59654,9042.040766,9899.640319,-,0,58563.67993,762.6592,1887.957036,5576.93,16534.43304,30245.11853,42214.15354,1.339806763,'total_pymnt'
+total_pymnt_inv,39717,0,37518,11567.14912,8942.672613,9287.15,-,0,58563.68,326.9196,1420.408,5112.31,15798.81,29627.236,41445.1592,1.354786471,'total_pymnt_inv'
+total_rec_prncp,39717,0,7976,9793.348813,7065.522127,8000,-,0,35000.02,346.7032,1339.842,4600,13653.26,24999.982,33894,1.118212313,'total_rec_prncp'
+total_rec_int,39717,0,35148,2263.663172,2608.111964,1348.91,-,0,23563.68,51.9596,186.168,662.18,2833.4,7575.812,12798.8396,2.668646395,'total_rec_int'
+total_rec_late_fee,39717,0,1356,1.363015212,7.289979302,0,-,0,180.2,0,0,0,0,14.924199,33.72359996,8.429217636,'total_rec_late_fee'
+recoveries,39717,0,4040,95.22162387,688.744771,0,-,0,29623.35,0,0,0,0,362.418,2010.1068,16.51875431,'recoveries'
+collection_recovery_fee,39717,0,2616,12.40611189,148.6715935,0,-,0,7002.19,0,0,0,0,5.152,296.12772,25.02847312,'collection_recovery_fee'
+last_pymnt_amnt,39717,0,34930,2678.826162,4447.136012,546.14,-,0,36115.2,7.2216,43.34,218.68,3293.16,12183.944,21174.0132,2.712019811,'last_pymnt_amnt'
+id,39717,0,39717,-,-,-,"0          54734
+1          55742
+2          57245
+3          57416
+4          58915
+5          59006
+6          61390
+7          61419
+8          62102
+9          65426
+10         65640
+11         66431
+12         66749
+13         66943
+14         66964
+15         67503
+16         68163
+17         68381
+18         68817
+19         68926
+20         69001
+21         69124
+22         69168
+23         69251
+24         69550
+25         69828
+26         69924
+27         69990
+28         70348
+29         76597
+          ...   
+39687    1069469
+39688    1069506
+39689    1069522
+39690    1069530
+39691    1069539
+39692    1069559
+39693    1069591
+39694    1069639
+39695    1069657
+39696    1069697
+39697    1069700
+39698    1069710
+39699    1069740
+39700    1069742
+39701    1069759
+39702    1069799
+39703    1069800
+39704    1069866
+39705    1069908
+39706    1069971
+39707    1070078
+39708    1071570
+39709    1071795
+39710    1072053
+39711    1075269
+39712    1075358
+39713    1076863
+39714    1077175
+39715    1077430
+39716    1077501
+Length: 39717, dtype: object",-,-,-,-,-,-,-,-,-,
+member_id,39717,0,39717,-,-,-,"0          70699
+1          73673
+2          74724
+3          76583
+4          80353
+5          80364
+6          84914
+7          85483
+8          86999
+9          89243
+10         90390
+11         90607
+12         90962
+13         92174
+14         92390
+15         92423
+16         92502
+17         92529
+18         92542
+19         92661
+20         92671
+21         93057
+22         93254
+23         94256
+24         95212
+25         95222
+26         96338
+27         97572
+28         98268
+29         98957
+          ...   
+39687    1304202
+39688    1304237
+39689    1304250
+39690    1304251
+39691    1304255
+39692    1304289
+39693    1304521
+39694    1304526
+39695    1304567
+39696    1304589
+39697    1304608
+39698    1304634
+39699    1304678
+39700    1304679
+39701    1304742
+39702    1304764
+39703    1304810
+39704    1304821
+39705    1304855
+39706    1304871
+39707    1304884
+39708    1304956
+39709    1305008
+39710    1305201
+39711    1306721
+39712    1306957
+39713    1311441
+39714    1311748
+39715    1313524
+39716    1314167
+Length: 39717, dtype: object",-,-,-,-,-,-,-,-,-,
+term,39717,0,2,-,-,-,"0     36 months
+dtype: object",-,-,-,-,-,-,-,-,-,
+grade,39717,0,7,-,-,-,"0    B
+dtype: object",-,-,-,-,-,-,-,-,-,
+sub_grade,39717,0,35,-,-,-,"0    B3
+dtype: object",-,-,-,-,-,-,-,-,-,
+emp_title,37259,2458,28821,-,-,-,"0    US Army
+dtype: object",-,-,-,-,-,-,-,-,-,
+emp_length,39717,0,12,-,-,-,"0    10+ years
+dtype: object",-,-,-,-,-,-,-,-,-,
+home_ownership,39717,0,5,-,-,-,"0    RENT
+dtype: object",-,-,-,-,-,-,-,-,-,
+verification_status,39717,0,3,-,-,-,"0    Not Verified
+dtype: object",-,-,-,-,-,-,-,-,-,
+issue_d,39717,0,55,-,-,-,"0    12/11/2018
+dtype: object",-,-,-,-,-,-,-,-,-,
+loan_status,39717,0,3,-,-,-,"0    Fully Paid
+dtype: object",-,-,-,-,-,-,-,-,-,
+pymnt_plan,39717,0,1,-,-,-,"0    n
+dtype: object",-,-,-,-,-,-,-,-,-,
+url,39717,0,39717,-,-,-,"0        https://lendingclub.com/browse/loanDetail.acti...
+1        https://lendingclub.com/browse/loanDetail.acti...
+2        https://lendingclub.com/browse/loanDetail.acti...
+3        https://lendingclub.com/browse/loanDetail.acti...
+4        https://lendingclub.com/browse/loanDetail.acti...
+5        https://lendingclub.com/browse/loanDetail.acti...
+6        https://lendingclub.com/browse/loanDetail.acti...
+7        https://lendingclub.com/browse/loanDetail.acti...
+8        https://lendingclub.com/browse/loanDetail.acti...
+9        https://lendingclub.com/browse/loanDetail.acti...
+10       https://lendingclub.com/browse/loanDetail.acti...
+11       https://lendingclub.com/browse/loanDetail.acti...
+12       https://lendingclub.com/browse/loanDetail.acti...
+13       https://lendingclub.com/browse/loanDetail.acti...
+14       https://lendingclub.com/browse/loanDetail.acti...
+15       https://lendingclub.com/browse/loanDetail.acti...
+16       https://lendingclub.com/browse/loanDetail.acti...
+17       https://lendingclub.com/browse/loanDetail.acti...
+18       https://lendingclub.com/browse/loanDetail.acti...
+19       https://lendingclub.com/browse/loanDetail.acti...
+20       https://lendingclub.com/browse/loanDetail.acti...
+21       https://lendingclub.com/browse/loanDetail.acti...
+22       https://lendingclub.com/browse/loanDetail.acti...
+23       https://lendingclub.com/browse/loanDetail.acti...
+24       https://lendingclub.com/browse/loanDetail.acti...
+25       https://lendingclub.com/browse/loanDetail.acti...
+26       https://lendingclub.com/browse/loanDetail.acti...
+27       https://lendingclub.com/browse/loanDetail.acti...
+28       https://lendingclub.com/browse/loanDetail.acti...
+29       https://lendingclub.com/browse/loanDetail.acti...
+                               ...                        
+39687    https://lendingclub.com/browse/loanDetail.acti...
+39688    https://lendingclub.com/browse/loanDetail.acti...
+39689    https://lendingclub.com/browse/loanDetail.acti...
+39690    https://lendingclub.com/browse/loanDetail.acti...
+39691    https://lendingclub.com/browse/loanDetail.acti...
+39692    https://lendingclub.com/browse/loanDetail.acti...
+39693    https://lendingclub.com/browse/loanDetail.acti...
+39694    https://lendingclub.com/browse/loanDetail.acti...
+39695    https://lendingclub.com/browse/loanDetail.acti...
+39696    https://lendingclub.com/browse/loanDetail.acti...
+39697    https://lendingclub.com/browse/loanDetail.acti...
+39698    https://lendingclub.com/browse/loanDetail.acti...
+39699    https://lendingclub.com/browse/loanDetail.acti...
+39700    https://lendingclub.com/browse/loanDetail.acti...
+39701    https://lendingclub.com/browse/loanDetail.acti...
+39702    https://lendingclub.com/browse/loanDetail.acti...
+39703    https://lendingclub.com/browse/loanDetail.acti...
+39704    https://lendingclub.com/browse/loanDetail.acti...
+39705    https://lendingclub.com/browse/loanDetail.acti...
+39706    https://lendingclub.com/browse/loanDetail.acti...
+39707    https://lendingclub.com/browse/loanDetail.acti...
+39708    https://lendingclub.com/browse/loanDetail.acti...
+39709    https://lendingclub.com/browse/loanDetail.acti...
+39710    https://lendingclub.com/browse/loanDetail.acti...
+39711    https://lendingclub.com/browse/loanDetail.acti...
+39712    https://lendingclub.com/browse/loanDetail.acti...
+39713    https://lendingclub.com/browse/loanDetail.acti...
+39714    https://lendingclub.com/browse/loanDetail.acti...
+39715    https://lendingclub.com/browse/loanDetail.acti...
+39716    https://lendingclub.com/browse/loanDetail.acti...
+Length: 39717, dtype: object",-,-,-,-,-,-,-,-,-,
+desc,26778,12939,26528,-,-,-,"0     
+dtype: object",-,-,-,-,-,-,-,-,-,
+purpose,39717,0,14,-,-,-,"0    debt_consolidation
+dtype: object",-,-,-,-,-,-,-,-,-,
+title,39707,10,19615,-,-,-,"0    Debt Consolidation
+dtype: object",-,-,-,-,-,-,-,-,-,
+zip_code,39717,0,823,-,-,-,"0    100xx
+dtype: object",-,-,-,-,-,-,-,-,-,
+addr_state,39717,0,50,-,-,-,"0    CA
+dtype: object",-,-,-,-,-,-,-,-,-,
+delinq_2yrs,39717,0,11,-,-,-,"0    0
+dtype: object",-,-,-,-,-,-,-,-,-,
+earliest_cr_line,39717,0,526,-,-,-,"0    11/1/1998
+dtype: object",-,-,-,-,-,-,-,-,-,
+inq_last_6mths,39717,0,9,-,-,-,"0    0
+dtype: object",-,-,-,-,-,-,-,-,-,
+mths_since_last_delinq,14035,25682,95,-,-,-,"0    0
+dtype: object",-,-,-,-,-,-,-,-,-,
+mths_since_last_record,2786,36931,111,-,-,-,"0    0
+dtype: object",-,-,-,-,-,-,-,-,-,
+open_acc,39717,0,40,-,-,-,"0    7
+dtype: object",-,-,-,-,-,-,-,-,-,
+pub_rec,39717,0,5,-,-,-,"0    0
+dtype: object",-,-,-,-,-,-,-,-,-,
+total_acc,39717,0,82,-,-,-,"0    16
+dtype: object",-,-,-,-,-,-,-,-,-,
+initial_list_status,39717,0,1,-,-,-,"0    f
+dtype: object",-,-,-,-,-,-,-,-,-,
+last_pymnt_d,39646,71,101,-,-,-,"0    5/16/2018
+dtype: object",-,-,-,-,-,-,-,-,-,
+next_pymnt_d,1140,38577,2,-,-,-,"0    6/16/2018
+dtype: object",-,-,-,-,-,-,-,-,-,
+last_credit_pull_d,39715,2,106,-,-,-,"0    5/16/2018
+dtype: object",-,-,-,-,-,-,-,-,-,
+collections_12_mths_ex_med,39661,56,1,-,-,-,"0    0
+dtype: object",-,-,-,-,-,-,-,-,-,
+mths_since_last_major_derog,0,39717,0,-,-,-,"Series([], dtype: object)",-,-,-,-,-,-,-,-,-,
+policy_code,39717,0,1,-,-,-,"0    1
+dtype: object",-,-,-,-,-,-,-,-,-,
+application_type,39717,0,1,-,-,-,"0    INDIVIDUAL
+dtype: object",-,-,-,-,-,-,-,-,-,
+annual_inc_joint,0,39717,0,-,-,-,"Series([], dtype: object)",-,-,-,-,-,-,-,-,-,
+dti_joint,0,39717,0,-,-,-,"Series([], dtype: object)",-,-,-,-,-,-,-,-,-,
+verification_status_joint,0,39717,0,-,-,-,"Series([], dtype: object)",-,-,-,-,-,-,-,-,-,
+acc_now_delinq,39717,0,1,-,-,-,"0    0
+dtype: object",-,-,-,-,-,-,-,-,-,
+tot_coll_amt,0,39717,0,-,-,-,"Series([], dtype: object)",-,-,-,-,-,-,-,-,-,
+tot_cur_bal,0,39717,0,-,-,-,"Series([], dtype: object)",-,-,-,-,-,-,-,-,-,
+open_acc_6m,0,39717,0,-,-,-,"Series([], dtype: object)",-,-,-,-,-,-,-,-,-,
+open_il_6m,0,39717,0,-,-,-,"Series([], dtype: object)",-,-,-,-,-,-,-,-,-,
+open_il_12m,0,39717,0,-,-,-,"Series([], dtype: object)",-,-,-,-,-,-,-,-,-,
+open_il_24m,0,39717,0,-,-,-,"Series([], dtype: object)",-,-,-,-,-,-,-,-,-,
+mths_since_rcnt_il,0,39717,0,-,-,-,"Series([], dtype: object)",-,-,-,-,-,-,-,-,-,
+total_bal_il,0,39717,0,-,-,-,"Series([], dtype: object)",-,-,-,-,-,-,-,-,-,
+il_util,0,39717,0,-,-,-,"Series([], dtype: object)",-,-,-,-,-,-,-,-,-,
+open_rv_12m,0,39717,0,-,-,-,"Series([], dtype: object)",-,-,-,-,-,-,-,-,-,
+open_rv_24m,0,39717,0,-,-,-,"Series([], dtype: object)",-,-,-,-,-,-,-,-,-,
+max_bal_bc,0,39717,0,-,-,-,"Series([], dtype: object)",-,-,-,-,-,-,-,-,-,
+all_util,0,39717,0,-,-,-,"Series([], dtype: object)",-,-,-,-,-,-,-,-,-,
+total_rev_hi_lim,0,39717,0,-,-,-,"Series([], dtype: object)",-,-,-,-,-,-,-,-,-,
+inq_fi,0,39717,0,-,-,-,"Series([], dtype: object)",-,-,-,-,-,-,-,-,-,
+total_cu_tl,0,39717,0,-,-,-,"Series([], dtype: object)",-,-,-,-,-,-,-,-,-,
+inq_last_12m,0,39717,0,-,-,-,"Series([], dtype: object)",-,-,-,-,-,-,-,-,-,
+acc_open_past_24mths,0,39717,0,-,-,-,"Series([], dtype: object)",-,-,-,-,-,-,-,-,-,
+avg_cur_bal,0,39717,0,-,-,-,"Series([], dtype: object)",-,-,-,-,-,-,-,-,-,
+bc_open_to_buy,0,39717,0,-,-,-,"Series([], dtype: object)",-,-,-,-,-,-,-,-,-,
+bc_util,0,39717,0,-,-,-,"Series([], dtype: object)",-,-,-,-,-,-,-,-,-,
+chargeoff_within_12_mths,39661,56,1,-,-,-,"0    0
+dtype: object",-,-,-,-,-,-,-,-,-,
+delinq_amnt,39717,0,1,-,-,-,"0    0
+dtype: object",-,-,-,-,-,-,-,-,-,
+mo_sin_old_il_acct,0,39717,0,-,-,-,"Series([], dtype: object)",-,-,-,-,-,-,-,-,-,
+mo_sin_old_rev_tl_op,0,39717,0,-,-,-,"Series([], dtype: object)",-,-,-,-,-,-,-,-,-,
+mo_sin_rcnt_rev_tl_op,0,39717,0,-,-,-,"Series([], dtype: object)",-,-,-,-,-,-,-,-,-,
+mo_sin_rcnt_tl,0,39717,0,-,-,-,"Series([], dtype: object)",-,-,-,-,-,-,-,-,-,
+mort_acc,0,39717,0,-,-,-,"Series([], dtype: object)",-,-,-,-,-,-,-,-,-,
+mths_since_recent_bc,0,39717,0,-,-,-,"Series([], dtype: object)",-,-,-,-,-,-,-,-,-,
+mths_since_recent_bc_dlq,0,39717,0,-,-,-,"Series([], dtype: object)",-,-,-,-,-,-,-,-,-,
+mths_since_recent_inq,0,39717,0,-,-,-,"Series([], dtype: object)",-,-,-,-,-,-,-,-,-,
+mths_since_recent_revol_delinq,0,39717,0,-,-,-,"Series([], dtype: object)",-,-,-,-,-,-,-,-,-,
+num_accts_ever_120_pd,0,39717,0,-,-,-,"Series([], dtype: object)",-,-,-,-,-,-,-,-,-,
+num_actv_bc_tl,0,39717,0,-,-,-,"Series([], dtype: object)",-,-,-,-,-,-,-,-,-,
+num_actv_rev_tl,0,39717,0,-,-,-,"Series([], dtype: object)",-,-,-,-,-,-,-,-,-,
+num_bc_sats,0,39717,0,-,-,-,"Series([], dtype: object)",-,-,-,-,-,-,-,-,-,
+num_bc_tl,0,39717,0,-,-,-,"Series([], dtype: object)",-,-,-,-,-,-,-,-,-,
+num_il_tl,0,39717,0,-,-,-,"Series([], dtype: object)",-,-,-,-,-,-,-,-,-,
+num_op_rev_tl,0,39717,0,-,-,-,"Series([], dtype: object)",-,-,-,-,-,-,-,-,-,
+num_rev_accts,0,39717,0,-,-,-,"Series([], dtype: object)",-,-,-,-,-,-,-,-,-,
+num_rev_tl_bal_gt_0,0,39717,0,-,-,-,"Series([], dtype: object)",-,-,-,-,-,-,-,-,-,
+num_sats,0,39717,0,-,-,-,"Series([], dtype: object)",-,-,-,-,-,-,-,-,-,
+num_tl_120dpd_2m,0,39717,0,-,-,-,"Series([], dtype: object)",-,-,-,-,-,-,-,-,-,
+num_tl_30dpd,0,39717,0,-,-,-,"Series([], dtype: object)",-,-,-,-,-,-,-,-,-,
+num_tl_90g_dpd_24m,0,39717,0,-,-,-,"Series([], dtype: object)",-,-,-,-,-,-,-,-,-,
+num_tl_op_past_12m,0,39717,0,-,-,-,"Series([], dtype: object)",-,-,-,-,-,-,-,-,-,
+pct_tl_nvr_dlq,0,39717,0,-,-,-,"Series([], dtype: object)",-,-,-,-,-,-,-,-,-,
+percent_bc_gt_75,0,39717,0,-,-,-,"Series([], dtype: object)",-,-,-,-,-,-,-,-,-,
+pub_rec_bankruptcies,39020,697,3,-,-,-,"0    0
+dtype: object",-,-,-,-,-,-,-,-,-,
+tax_liens,39678,39,1,-,-,-,"0    0
+dtype: object",-,-,-,-,-,-,-,-,-,
+tot_hi_cred_lim,0,39717,0,-,-,-,"Series([], dtype: object)",-,-,-,-,-,-,-,-,-,
+total_bal_ex_mort,0,39717,0,-,-,-,"Series([], dtype: object)",-,-,-,-,-,-,-,-,-,
+total_bc_limit,0,39717,0,-,-,-,"Series([], dtype: object)",-,-,-,-,-,-,-,-,-,
+total_il_high_credit_limit,0,39717,0,-,-,-,"Series([], dtype: object)",-,-,-,-,-,-,-,-,-,
